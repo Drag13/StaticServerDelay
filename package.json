@@ -1,0 +1,22 @@
+{
+  "name": "static-server-delay",
+  "version": "0.1.0",
+  "description": "Simple preconfigured web server with possibility to delay static files for webperformance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "express",
+    "webperformance",
+    "webperf"
+  ],
+  "author": "drag13",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "delays": {
+    "/a.css": 3000,
+    "/a.js": 3000
+  },
+  "root": "src/public",
+  "port": 4000,
+  "defaultDelay": 100
+}
