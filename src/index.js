@@ -12,7 +12,7 @@ function delay(defaultDelay, config) {
   return function delayMiddleware(req, res, next) {
     const url = req.url;
     const individualDelay = config[url];
-    const delay = individualDelay != null ? individualDelay : defaultDelay;
+    const delay = valueOrDefault(individualDelay, defaultDelay);
     const shouldBedelayed = typeof delay === "number" && delay > 0;
     if (shouldBedelayed) {
       setTimeout(next, delay);

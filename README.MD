@@ -4,6 +4,12 @@
 
 Simple, preconfigured, express server with support delaying static resources. Allows general and individual delay rules for easier web performance testing
 
+## Install
+
+```cmd
+npm ci
+```
+
 ## Start
 
 ```cmd
