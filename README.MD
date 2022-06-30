@@ -2,7 +2,7 @@
 
 ## Why
 
-Simple, preconfigured, express server with support delaying static resources. Allows general and individual delay rules for easier web performance testing
+Simple, pre configured, express based web server with support of delaying static resources. Allows general and individual delay rules for easier web performance testing
 
 ## Install
 
@@ -24,7 +24,7 @@ npm run dev
 { "defaultDelay": 1000 }
 ```
 
-- Delaying individual files (overcomes general delay rule):
+- Delaying individual files (overrides general delay rule):
 
 ```json
 {
